@@ -11,8 +11,9 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            width: 100%;
-            height: 100%;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
             color: #333;
             text-align: center;
             padding: 20px;
@@ -65,7 +66,8 @@
 <body>
 
 
-<h1>Tarrot Fortune Teller</h1>
+<h1 style="padding-top: 7%;">Tarrot Fortune Teller</h1>
+
 <div class="container ">
         
         <h1 style="color: black;">Welcome to Your Fortune Telling Experience</h1>
@@ -142,7 +144,7 @@ $tarrotmajor =[
     "Devil" => ["good"=> "Weakness, bad luck, fear and addiction", "bad" => "Freedom , Lack of Will and Resentment"],
     "Tower" => ["bad1"=> "Falling to pieces, weak foundations and endings", "bad" => "Collapse , Stormy times and Restlessness"],
     "Star" => ["good"=> "Hope, healing and positivity", "bad" => "Insecurity , Discouragment and Faithlessness"],
-    "Moon" => ["good"=> "Deep-seated internal feelings and truths, mysteriousness", "bad" =>"Darkness , Fears and Insecurities" ],
+    "Moon" => ["good"=> "Deep-seated internal feelings, truths and mysteriousness", "bad" =>"Darkness , Fears and Insecurities" ],
     "Sun" => ["good"=> "Happiness, energy and starting on the right path", "bad" => "Negativity , Arrogance and Carelessness"],
     "Judgment" => ["good"=> "Transforming into your best self and growth", "bad" =>"Doubt, punishment and Destruction" ],
     "World" => ["good"=> "Triumph, a happy ending and fate", "bad" => "Incompletion , Emptyness and Lack of Closure"]
